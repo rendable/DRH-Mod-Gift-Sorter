@@ -4,15 +4,12 @@ I no longer really play the game, so ongoing updates and fixes are unlikely.
 
 # Gift Sorter
 
-Sorts gifts by Health Shots, Mana Shots, Health Bombs, then remaining items alphabetically.
-
 <!-- drh:show -->
 Sorts gifts by Health Shots, Mana Shots, Health Bombs, then remaining items alphabetically.
-<!-- /drh:show -->
-
 - Health Shots first, Mana Shots second and Health Bombs third.
 - Alphabetical sorting within each group, ignoring letter case.
 - Preserves the native gift popup, item data and gifting controls.
+<!-- /drh:show -->
 
 ## Requirements
 
