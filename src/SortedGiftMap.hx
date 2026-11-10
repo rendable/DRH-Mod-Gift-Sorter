@@ -1,16 +1,16 @@
 package mods.gift_sorter;
 
 import account.GiftInfo;
-import collections.Map;
+import collections.Map as GameMap;
 import facade.DBFacade;
 import facade.Locale;
 import gameMasterDictionary.GMOffer;
 
 /** The native popup keeps its original rendering, controls, and geometry. */
-class SortedGiftMap extends Map {
+class SortedGiftMap extends GameMap {
     var facade:DBFacade;
 
-    public function new(facade:DBFacade, source:Map) {
+    public function new(facade:DBFacade, source:GameMap) {
         super();
         this.facade = facade;
         // Share the original entries and preserve every gift's identity.

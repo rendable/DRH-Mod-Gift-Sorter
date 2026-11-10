@@ -3,11 +3,11 @@ package mods.gift_sorter;
 import mods.api.Context;
 import mods.api.Mod;
 import account.DBAccountInfo;
-import collections.Map;
+import collections.Map as GameMap;
 
 class Main extends Mod {
     var account:DBAccountInfo;
-    var original:Map;
+    var original:GameMap;
     var sorted:SortedGiftMap;
     var context:Context;
 

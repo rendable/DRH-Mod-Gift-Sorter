@@ -2,7 +2,7 @@
   "id": "gift_sorter",
   "name": "Gift Sorter",
   "description": "Sorts gifts by Health Shots, Mana Shots, Health Bombs, then remaining items alphabetically.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Danny",
   "api": "1.2",
   "drh": "17",
